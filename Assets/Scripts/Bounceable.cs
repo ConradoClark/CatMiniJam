@@ -13,19 +13,15 @@ public class Bounceable : BaseGameObject
 
     public event Action<LichtPhysicsObject> OnBouncedBy;
 
-    private GameFX _tempTest;
 
     protected override void OnEnable()
     {
         base.OnEnable();
         PhysicsObject.AddCustomObject(this);
-        _tempTest = _tempTest.FromScene();
     }
 
     public void Bounce(LichtPhysicsObject source)
     {
         OnBouncedBy?.Invoke(source);
-
-        _tempTest.SetRadius(_tempTest.AuraRadius+1f);
     }
 }

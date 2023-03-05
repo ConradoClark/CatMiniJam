@@ -115,6 +115,7 @@ GameObject:
   - component: {fileID: 3027382008757829575}
   - component: {fileID: 8550991584813759325}
   - component: {fileID: 8965960804905444101}
+  - component: {fileID: 4234045455534909152}
   m_Layer: 9
   m_Name: Blocky
   m_TagString: Untagged
@@ -202,6 +203,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Enemy>k__BackingField: {fileID: 8550991584813759325}
   <PhysicsObject>k__BackingField: {fileID: 3027382008757829575}
+--- !u!114 &4234045455534909152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699941319659710216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea675e72653b904ba305cf30801f6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Score>k__BackingField: 100
+  <Killable>k__BackingField: {fileID: 7265065015850150174}
 --- !u!1 &3823598962384083370
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +495,7 @@ GameObject:
   - component: {fileID: 7265065015850150174}
   - component: {fileID: 1826099882116442489}
   - component: {fileID: 3581098875914756628}
+  - component: {fileID: 1516067075014717512}
   m_Layer: 9
   m_Name: Bounceable
   m_TagString: Untagged
@@ -571,6 +587,20 @@ MonoBehaviour:
   <Killable>k__BackingField: {fileID: 7265065015850150174}
   <PooledObject>k__BackingField: {fileID: 8550991584813759325}
   <TimeToDespawnInMs>k__BackingField: 0
+--- !u!114 &1516067075014717512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4709951902120519953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf7da79b44b61c419c946a100bb30e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Amount>k__BackingField: 0.5
+  <Killable>k__BackingField: {fileID: 7265065015850150174}
 --- !u!1 &5749278140911635598
 GameObject:
   m_ObjectHideFlags: 0

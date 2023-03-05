@@ -167,6 +167,10 @@ GameObject:
   - component: {fileID: 8374186983383110670}
   - component: {fileID: 7303711244136098338}
   - component: {fileID: 4939383457588947950}
+  - component: {fileID: 5079611671144576754}
+  - component: {fileID: 4523214885665690743}
+  - component: {fileID: 263676210884203836}
+  - component: {fileID: 8525476880969599452}
   m_Layer: 6
   m_Name: TakeDamage
   m_TagString: Untagged
@@ -218,6 +222,63 @@ MonoBehaviour:
   <MoveController>k__BackingField: {fileID: 1337045289498788234}
   <PhysicsObject>k__BackingField: {fileID: 210563311146181894}
   <KnockBackSpeed>k__BackingField: {x: 8, y: 5}
+--- !u!114 &5079611671144576754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828841253034550427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea23ca23281ad484db36997da97c28dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <SpriteRenderer>k__BackingField: {fileID: 4840609521693350602}
+  <DurationInMs>k__BackingField: 600
+  <Color>k__BackingField: {r: 0.83137256, g: 0.44313726, b: 0.3647059, a: 1}
+--- !u!114 &4523214885665690743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828841253034550427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b82c93810ace7a419952a9492b8d270, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <TintFlash>k__BackingField: {fileID: 5079611671144576754}
+  <Damageable>k__BackingField: {fileID: 7303711244136098338}
+--- !u!114 &263676210884203836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828841253034550427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857bbe1c42e0bc94e9491df44a56d07f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Damageable>k__BackingField: {fileID: 7303711244136098338}
+  <InvulnerabilityDurationInSeconds>k__BackingField: 1
+  <SpriteRenderer>k__BackingField: {fileID: 4840609521693350602}
+--- !u!114 &8525476880969599452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828841253034550427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9becda7f61cfa0b478ac05ffeb9723d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Damageable>k__BackingField: {fileID: 7303711244136098338}
 --- !u!1 &1005475207262361236
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedMultiplier: 1
-  MaxSpeed: 5
+  MaxSpeed: 4
   TurnBehaviour: 0
   MinSkidSpeed: 0
   AccelerationTime: 0.2

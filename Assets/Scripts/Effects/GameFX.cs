@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Builders;
+using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
 using UnityEngine;
 
@@ -17,6 +18,8 @@ public class GameFX : BaseGameObject
 
     [field: SerializeField]
     public float AuraRadius{ get; private set; }
+
+    private Aura _aura;
 
     public void SetRadius(float auraRadius)
     {
@@ -35,11 +38,25 @@ public class GameFX : BaseGameObject
     }
 
     // Start is called before the first frame update
-    void Start()
+    protected override void OnAwake()
     {
+        base.OnAwake();
+        _aura = _aura.FromScene();
+        AuraRadius = _aura.InitialRadius;
         Shader.SetGlobalColor("_FX_DarkColor", DarkColor);
         Shader.SetGlobalFloat("_FX_Radius", AuraRadius);
         Shader.SetGlobalInteger("_FX_Enabled", 1);
+    }
+
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        _aura.OnAuraChanged += _aura_OnAuraChanged;
+    }
+
+    private void _aura_OnAuraChanged(float obj)
+    {
+       SetRadius(obj);
     }
 
     // Update is called once per frame
@@ -53,5 +70,6 @@ public class GameFX : BaseGameObject
     {
         base.OnDisable();
         Shader.SetGlobalInteger("_FX_Enabled", 0);
+        _aura.OnAuraChanged -= _aura_OnAuraChanged;
     }
 }

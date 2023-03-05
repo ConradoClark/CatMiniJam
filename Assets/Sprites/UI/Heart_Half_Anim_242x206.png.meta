@@ -1,0 +1,1522 @@
+fileFormatVersion: 2
+guid: f2c5b87c3938cb54e9602ec26df53912
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ddfb88ac4841a4aaaff9c31a84f36c
+      internalID: -559826368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c8e3fe2016441498b0cb0ec2908bda
+      internalID: 656200833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_2
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2a31145baa24842aee6d1a630518ca
+      internalID: -243412299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_3
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607a49cf2835e8743bcf60a36d0994cc
+      internalID: -1923251851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_4
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f8989491a6cd949b882ef521748cb1
+      internalID: -2049851076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_5
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a35d0fa7ab27e345956ea8175a44a2b
+      internalID: 198901798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_6
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827254074e51f0f4c8a91869e032ec37
+      internalID: 722429886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_7
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5998f3779017e514e9c89ef594c2dd5e
+      internalID: -1056450777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_8
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc30a785f50706b4ab9e42cdf35bdc1e
+      internalID: -2043436090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b079f57dc444aa942ae236693ba595ef
+      internalID: -2011868494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de224aba6a6faab40af69972d761c226
+      internalID: -686334566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_11
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446a685654d1f9a4fa78273b4401b233
+      internalID: -308014738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_12
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7198362bb34bb4eb54264bb46bdcb9
+      internalID: -1247513589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_13
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3c3070cab528e43855bd24c5255f0d
+      internalID: 435002001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_14
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eca04b5813472498aaa73b419dbca3
+      internalID: 1946559143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_15
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc2d62471878374f8e21465246ef802
+      internalID: -440573550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_16
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a561a22e5eb94043814d21d8b0cc579
+      internalID: -424721553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_17
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8278444ef12f334296c1bc7db1c28ee
+      internalID: 797428431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce35e44e7f08e9a4cb9789b915dc0a5f
+      internalID: -630174522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ad19cbe0f6ac34b9e5aa60113d1606
+      internalID: 362690228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_20
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a842d9fe834c1f4ca94ee47b65e9832
+      internalID: 274544552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_21
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2593734d60cea8240983f09430fa8669
+      internalID: 802431423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_22
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c95b534a753304aaecd24391dd4e57
+      internalID: 334236849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_23
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd6581cdd528424c9dcf883cdd83975
+      internalID: 1538687434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_24
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b9ef94460b4954c8a9d0f633ee76f4
+      internalID: 1197017419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_25
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54092accee206a48ba1d08fa4d641e0
+      internalID: 1154959903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_26
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e1f1edc1fe0514caed879575f13e72
+      internalID: 925376414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1d140412c083a46b20903c8ee670ce
+      internalID: 817469431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_28
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e51775e2d3a74d880a4637af07df5
+      internalID: 1996727637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_29
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a8a6eb87e4c024a946e486c62f79d2
+      internalID: -1135406616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_30
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e2dd39f63bb7f4ba6df9de5acbb9e7
+      internalID: -442766381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_31
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e91d6344cd174e4fbcf4f251037bda3
+      internalID: 1498959367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_32
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3d0c184ae5fbe47905c5b10d58ae80
+      internalID: -370966321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_33
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65acf6590a6d7134cadfe66e6c36a3ea
+      internalID: 459551236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_34
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a663c982e03d0c840a76de367584cdac
+      internalID: 118715515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_35
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e702c6b48809e04e94ea6ed4ed71206
+      internalID: -246226754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2b7ae49809e594d91c1f13212a6ce7
+      internalID: -1110329215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_37
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c69778512cfc074d8252b11610408e8
+      internalID: -731701403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_38
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f84bda5735860641a3c5c4aa0d1a8cb
+      internalID: 573576297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_39
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0172e984051697a40a19907387c76289
+      internalID: 579355352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_40
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b440ad4b2faa58044aeaf2c0e66fb62e
+      internalID: 2070410359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_41
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd455c6240aa63448679de9ad03281e
+      internalID: 1846120406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_42
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b233f663172504b89af88fa168a63d
+      internalID: -385603034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_43
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b0ab1abc207ef4f86a811e3e88658a
+      internalID: 600862392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_44
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574aa04acbb943649989f5270dd903f0
+      internalID: -419300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43438447f95f9e149813af2514a62477
+      internalID: 719611967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_46
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e55991f40eaf384e850f7200d3a389e
+      internalID: -1189541307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_47
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5facfd53ce06814c8568e4986190137
+      internalID: -1243730104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_48
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9098f389c40a19148bc9e77b2c408fd3
+      internalID: -104136453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_49
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b40b2a41c3b8744ad244310d69e5dd
+      internalID: 1070785016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_50
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c8e6c3788664445a2778705d1fd03a
+      internalID: 1349980583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_51
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc785ab4a1a6f56498b197bb1dcd43a1
+      internalID: 1183157258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_52
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ed1c335e81ada42b48f1a098b3738d
+      internalID: -1504191595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_53
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5713a360daf8fdf479dd8b9b032b4197
+      internalID: -559904049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ceaa96a44e2f24bb3c4e928c400653
+      internalID: 2017797235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_55
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c75f6f1557ca5d4ca69df4456d9bf1a
+      internalID: 1670877308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_56
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537ee8941240dc242b641520804e363f
+      internalID: -1111981326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_57
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de26ee8d0ab032b40ac7336537e490b0
+      internalID: 1506745666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_58
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68418fcfe3786b4d915eca851559919
+      internalID: 276244913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_59
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebef63a956c8b6a46bbcda44916a7c2d
+      internalID: -1541520636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_60
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d729b28b410464cbf6a94812596d78
+      internalID: -1192992894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_61
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a835d281126ab7469111080db440eb7
+      internalID: 2025874197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Half_Anim_242x206_62
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35e7044ff19cc745b20600ff7b90b6b
+      internalID: -1831876731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Heart_Half_Anim_242x206_0: -559826368
+      Heart_Half_Anim_242x206_1: 656200833
+      Heart_Half_Anim_242x206_10: -686334566
+      Heart_Half_Anim_242x206_11: -308014738
+      Heart_Half_Anim_242x206_12: -1247513589
+      Heart_Half_Anim_242x206_13: 435002001
+      Heart_Half_Anim_242x206_14: 1946559143
+      Heart_Half_Anim_242x206_15: -440573550
+      Heart_Half_Anim_242x206_16: -424721553
+      Heart_Half_Anim_242x206_17: 797428431
+      Heart_Half_Anim_242x206_18: -630174522
+      Heart_Half_Anim_242x206_19: 362690228
+      Heart_Half_Anim_242x206_2: -243412299
+      Heart_Half_Anim_242x206_20: 274544552
+      Heart_Half_Anim_242x206_21: 802431423
+      Heart_Half_Anim_242x206_22: 334236849
+      Heart_Half_Anim_242x206_23: 1538687434
+      Heart_Half_Anim_242x206_24: 1197017419
+      Heart_Half_Anim_242x206_25: 1154959903
+      Heart_Half_Anim_242x206_26: 925376414
+      Heart_Half_Anim_242x206_27: 817469431
+      Heart_Half_Anim_242x206_28: 1996727637
+      Heart_Half_Anim_242x206_29: -1135406616
+      Heart_Half_Anim_242x206_3: -1923251851
+      Heart_Half_Anim_242x206_30: -442766381
+      Heart_Half_Anim_242x206_31: 1498959367
+      Heart_Half_Anim_242x206_32: -370966321
+      Heart_Half_Anim_242x206_33: 459551236
+      Heart_Half_Anim_242x206_34: 118715515
+      Heart_Half_Anim_242x206_35: -246226754
+      Heart_Half_Anim_242x206_36: -1110329215
+      Heart_Half_Anim_242x206_37: -731701403
+      Heart_Half_Anim_242x206_38: 573576297
+      Heart_Half_Anim_242x206_39: 579355352
+      Heart_Half_Anim_242x206_4: -2049851076
+      Heart_Half_Anim_242x206_40: 2070410359
+      Heart_Half_Anim_242x206_41: 1846120406
+      Heart_Half_Anim_242x206_42: -385603034
+      Heart_Half_Anim_242x206_43: 600862392
+      Heart_Half_Anim_242x206_44: -419300000
+      Heart_Half_Anim_242x206_45: 719611967
+      Heart_Half_Anim_242x206_46: -1189541307
+      Heart_Half_Anim_242x206_47: -1243730104
+      Heart_Half_Anim_242x206_48: -104136453
+      Heart_Half_Anim_242x206_49: 1070785016
+      Heart_Half_Anim_242x206_5: 198901798
+      Heart_Half_Anim_242x206_50: 1349980583
+      Heart_Half_Anim_242x206_51: 1183157258
+      Heart_Half_Anim_242x206_52: -1504191595
+      Heart_Half_Anim_242x206_53: -559904049
+      Heart_Half_Anim_242x206_54: 2017797235
+      Heart_Half_Anim_242x206_55: 1670877308
+      Heart_Half_Anim_242x206_56: -1111981326
+      Heart_Half_Anim_242x206_57: 1506745666
+      Heart_Half_Anim_242x206_58: 276244913
+      Heart_Half_Anim_242x206_59: -1541520636
+      Heart_Half_Anim_242x206_6: 722429886
+      Heart_Half_Anim_242x206_60: -1192992894
+      Heart_Half_Anim_242x206_61: 2025874197
+      Heart_Half_Anim_242x206_62: -1831876731
+      Heart_Half_Anim_242x206_7: -1056450777
+      Heart_Half_Anim_242x206_8: -2043436090
+      Heart_Half_Anim_242x206_9: -2011868494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

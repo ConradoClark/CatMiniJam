@@ -1,0 +1,1522 @@
+fileFormatVersion: 2
+guid: 52d3f01151e64a9489d08cc3643b1b76
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae339ae2e3ce33e49b9272157ea34020
+      internalID: 1956137206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa01ad2931bba64aa036b442d69363a
+      internalID: 936229708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_2
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ebb532fc34cc241980ddd43a911466
+      internalID: 1743141325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_3
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff640518bb32be24786f0521614c1a78
+      internalID: 902074741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_4
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5def8133042ad14caca85722207d9e4
+      internalID: -1600378908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_5
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370e6b4adb8116d48a9ce4f93de6ce07
+      internalID: 1361755409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_6
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8850fc79026111846809fdda6640c37c
+      internalID: 1550929072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_7
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3488024b7dcb454c8f918074d282405
+      internalID: 1242419626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_8
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1236
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45de31ffd0b828c42bd1e7f141412c04
+      internalID: 502389071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9ba97eea92e7340a3e276e701df070
+      internalID: -194924606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccb2835aec7b554bbd6d4ff35fe44d9
+      internalID: -1632819650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_11
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d6603972e12c34f8a02e0645f23de9
+      internalID: 1629117494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_12
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad045ddf463380e4a967c9cabe2e9af9
+      internalID: 458084095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_13
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c555e0866e592748a19406f8ad29eb3
+      internalID: 1386395848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_14
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ac0bd7f70e7eb49afb198a4410b20b
+      internalID: 711131648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_15
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd02ef59bb17e1479af59b5cfe70294
+      internalID: 1426021372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_16
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e958b05f8e1834497de6223970d3b2
+      internalID: -795139008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_17
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1030
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47b204c5dc07eb40b0acfc3b43f5feb
+      internalID: -1574401103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69a27d09509f7947b88e9dbf60cdda7
+      internalID: 720196756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a54102a1006294418aef0477de5a09c
+      internalID: 1126599729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_20
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d8639a681f23345bd72f50161d2cd8
+      internalID: 1474727472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_21
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a66080c68299b45ac20fa5adb911b1
+      internalID: 882881645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_22
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564b0c16e63f82e4593da842d0c4a2b3
+      internalID: 757545875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_23
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c4aed205d2b374a8e0cd0d05face49
+      internalID: 1694383625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_24
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ac866a6e1be0a49ac97307a2604697
+      internalID: -326894938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_25
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b15a3e42ccd3947b1a1f1748f9ff2d
+      internalID: 432207601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_26
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 824
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2fb7c6e27f99548983c4fe83d59ab7
+      internalID: -656668302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f58aa4b161726344935e77d690d46b5
+      internalID: 1114806248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_28
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb4197a4bab35844a29f454454da807
+      internalID: 211035263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_29
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fd78dc9d18b5a4d8d681d6c22a7c8a
+      internalID: -1394580059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_30
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9904b95b9b7fdd44da958d86a170857a
+      internalID: 2111890551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_31
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac3be23e772d59459759100884c23ab
+      internalID: 222635019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_32
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1430bceca0a81b241925dec7ac3d4237
+      internalID: 1130124616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_33
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0a2c1a023cebd44a5efbfb96b2ea8f
+      internalID: 1259362771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_34
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9538c3da241d04097e58a06cb83a92
+      internalID: -1010018501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_35
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 618
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ccb56e575475d428b757dd9e32f6e8
+      internalID: 1966266350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80783bab14b148f45a81fe6ce61ccbc0
+      internalID: -2010677218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_37
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100983c39c6815344ade14a8001c7649
+      internalID: 2007787152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_38
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eedaf86d356bcd4f8069cb6fe1da310
+      internalID: -138257929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_39
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d691576c9da74da42aafd99d24fca88b
+      internalID: 370808520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_40
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d24a7a3bfd0d32428d07bc2a262f4af
+      internalID: 1739794135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_41
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35238b960d83d644dab12abdb6a8c08f
+      internalID: -1702091147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_42
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8465a931a44178845b2e04548ee52700
+      internalID: 635277547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_43
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bf6558b77c96f41801e1447d85a35e
+      internalID: -1646586140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_44
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 412
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c232ef2253758cc48b44905d8f2f1cf2
+      internalID: -78404975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5755a9819a2c1b14fadb9a87fb588681
+      internalID: 386530388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_46
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa82dfbbf1d30c04bb42adc7404e38a5
+      internalID: -1221039857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_47
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731417b2424280a4e86560efb69ab948
+      internalID: 2060411170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_48
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5ecaa5ac8e6db4cbed1cda17b6996c
+      internalID: 1388149721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_49
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850e802435718df4e8cc66b4a0919e8b
+      internalID: -1816215257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_50
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65052489686e4d4b9bdee059fef8fed
+      internalID: -1735807748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_51
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb39621d371f0e46bd6993786214732
+      internalID: 20684544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_52
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e194840bc7aad5e49bc1fd0adddf539c
+      internalID: 1479809234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_53
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 206
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b058e3ebf676a48942722a0c4756e9
+      internalID: 505131934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0a40af53f125443a632e19eed1fe40
+      internalID: -1510978123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_55
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ea2f030221ed7489f89530ab52a594
+      internalID: 1492768206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_56
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3629f88abd3bd43bf20985eb0cabf9
+      internalID: -1772299856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_57
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4587bad9bd283cc47b82ea06d6fb8a5e
+      internalID: 706689721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_58
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8705ee473564f574883ff628a3fc446e
+      internalID: 1218933921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_59
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91d230c78ad22f41bc08f71c81f4f17
+      internalID: 80257388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_60
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd02c056c875fa742b1b6bcf5e539f36
+      internalID: 2042650888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_61
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840bb8ab5c6eb5b46ad2bd60cbc0a0a9
+      internalID: -97199393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full_Anim_242x206_62
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 0
+        width: 242
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609d3bb37ffcbd64ca312eea13799c66
+      internalID: -1313759740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Heart_Full_Anim_242x206_0: 1956137206
+      Heart_Full_Anim_242x206_1: 936229708
+      Heart_Full_Anim_242x206_10: -1632819650
+      Heart_Full_Anim_242x206_11: 1629117494
+      Heart_Full_Anim_242x206_12: 458084095
+      Heart_Full_Anim_242x206_13: 1386395848
+      Heart_Full_Anim_242x206_14: 711131648
+      Heart_Full_Anim_242x206_15: 1426021372
+      Heart_Full_Anim_242x206_16: -795139008
+      Heart_Full_Anim_242x206_17: -1574401103
+      Heart_Full_Anim_242x206_18: 720196756
+      Heart_Full_Anim_242x206_19: 1126599729
+      Heart_Full_Anim_242x206_2: 1743141325
+      Heart_Full_Anim_242x206_20: 1474727472
+      Heart_Full_Anim_242x206_21: 882881645
+      Heart_Full_Anim_242x206_22: 757545875
+      Heart_Full_Anim_242x206_23: 1694383625
+      Heart_Full_Anim_242x206_24: -326894938
+      Heart_Full_Anim_242x206_25: 432207601
+      Heart_Full_Anim_242x206_26: -656668302
+      Heart_Full_Anim_242x206_27: 1114806248
+      Heart_Full_Anim_242x206_28: 211035263
+      Heart_Full_Anim_242x206_29: -1394580059
+      Heart_Full_Anim_242x206_3: 902074741
+      Heart_Full_Anim_242x206_30: 2111890551
+      Heart_Full_Anim_242x206_31: 222635019
+      Heart_Full_Anim_242x206_32: 1130124616
+      Heart_Full_Anim_242x206_33: 1259362771
+      Heart_Full_Anim_242x206_34: -1010018501
+      Heart_Full_Anim_242x206_35: 1966266350
+      Heart_Full_Anim_242x206_36: -2010677218
+      Heart_Full_Anim_242x206_37: 2007787152
+      Heart_Full_Anim_242x206_38: -138257929
+      Heart_Full_Anim_242x206_39: 370808520
+      Heart_Full_Anim_242x206_4: -1600378908
+      Heart_Full_Anim_242x206_40: 1739794135
+      Heart_Full_Anim_242x206_41: -1702091147
+      Heart_Full_Anim_242x206_42: 635277547
+      Heart_Full_Anim_242x206_43: -1646586140
+      Heart_Full_Anim_242x206_44: -78404975
+      Heart_Full_Anim_242x206_45: 386530388
+      Heart_Full_Anim_242x206_46: -1221039857
+      Heart_Full_Anim_242x206_47: 2060411170
+      Heart_Full_Anim_242x206_48: 1388149721
+      Heart_Full_Anim_242x206_49: -1816215257
+      Heart_Full_Anim_242x206_5: 1361755409
+      Heart_Full_Anim_242x206_50: -1735807748
+      Heart_Full_Anim_242x206_51: 20684544
+      Heart_Full_Anim_242x206_52: 1479809234
+      Heart_Full_Anim_242x206_53: 505131934
+      Heart_Full_Anim_242x206_54: -1510978123
+      Heart_Full_Anim_242x206_55: 1492768206
+      Heart_Full_Anim_242x206_56: -1772299856
+      Heart_Full_Anim_242x206_57: 706689721
+      Heart_Full_Anim_242x206_58: 1218933921
+      Heart_Full_Anim_242x206_59: 80257388
+      Heart_Full_Anim_242x206_6: 1550929072
+      Heart_Full_Anim_242x206_60: 2042650888
+      Heart_Full_Anim_242x206_61: -97199393
+      Heart_Full_Anim_242x206_62: -1313759740
+      Heart_Full_Anim_242x206_7: 1242419626
+      Heart_Full_Anim_242x206_8: 502389071
+      Heart_Full_Anim_242x206_9: -194924606
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

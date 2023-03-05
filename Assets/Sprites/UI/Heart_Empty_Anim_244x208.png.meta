@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: c8fac7a10bc801f4b9597c3096e3ea4a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304d3128569d58247ab55cf8c6580198
+      internalID: -679547211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1248
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1d5265bc1a3fd44b589226b16dd814
+      internalID: -1697727234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_2
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1248
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6395784abba00bf4b82ee6e9c32c755a
+      internalID: -600151042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_3
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1248
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d846a0363b7834f90c3db8b0a2a1aa
+      internalID: -2093562867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_4
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1248
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc86060245e5a34788ab7be91eb8be3
+      internalID: 1501791250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_5
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1248
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380266efd87d51640b7b8a445789547e
+      internalID: -980060257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_6
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1248
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a31738fd2ae9f947aec18a585f62a5c
+      internalID: 1852119320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_7
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1248
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc27ab2e8f83c4419ba9d72c87784b4
+      internalID: -2089687175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_8
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1248
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec32d3a7fc323f418ee5ac649ef3101
+      internalID: 970926255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b9a37f25ba9a444adbbe0c8fe5333b
+      internalID: 215129952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1040
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9886079ebf31e4e4bb4bc413401f7222
+      internalID: 974518445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_11
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1040
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3ad0f1065d2334f892bb00ad09a2ea
+      internalID: -1446815953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_12
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1040
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42659f915eedec740beaccad15f76718
+      internalID: -1212980168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_13
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1040
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9df9c99243d5242b38ee8d1e792312
+      internalID: -473599282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_14
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1040
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1515b8579761f1c4e9127e3ae508ffd0
+      internalID: 291027932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_15
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1040
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b234ea517f2c159438fad4e793bd736e
+      internalID: -128702970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_16
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1040
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a488207e676a748894aa3ed83108d9
+      internalID: -873104893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_17
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1040
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4ede3225e14dc46b6b656552eee683
+      internalID: 125231070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd578d0ccd9ee0549a446ece33dc1269
+      internalID: -1324972197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_19
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 832
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188eeece458429f48bbb2f6d2e81eda1
+      internalID: -69168389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_20
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 832
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16e3d2cb29db5d41b32b5759e2372eb
+      internalID: 4963900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_21
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 832
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a43aa20fde0d44883d5fc70f888ca6
+      internalID: -1721933434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_22
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 832
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618e40addd0106b44944d3e92be72f0c
+      internalID: 538423909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_23
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 832
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744b186735895f4468d5a523d46f193b
+      internalID: 244905243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_24
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 832
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548cde7149ac09c4a8a5a4e9a3ed5991
+      internalID: -972820379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_25
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 832
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9512ed1c5b46e224aac25f38cf40ba35
+      internalID: 538934894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_26
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 832
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18398a8fc704134d885b14062a5182d
+      internalID: -298587105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a412c78c61b67054b87cec0a2559016d
+      internalID: 852491473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_28
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 624
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a531ae8982b73a4584a582482268adf
+      internalID: -848443840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_29
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 624
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84b74f667a7d734b979c822e61ada20
+      internalID: -1723072568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_30
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 624
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ddf8b89255cd14082ea388ac3b563c
+      internalID: -1688557553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_31
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 624
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ea466ec51dc0f4caaa06fcb0a950cd
+      internalID: 1392618634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_32
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 624
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af72c642d6b946a4089d2f598afa9f91
+      internalID: 1383295007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_33
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 624
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f67ed9324bb144fae2ebc180f72963
+      internalID: -495025533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_34
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 624
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaea0bba0e0bde4192345bc239c19e9
+      internalID: 1154278442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_35
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 624
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6096f885b27c5fd41b6e1145861cbdfc
+      internalID: 1327805112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ec56aa1f6bae648884b3b72fb13cd4
+      internalID: 1049628844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_37
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 416
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70f1b3db0e8d1f43889341b03f30909
+      internalID: -1025687394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_38
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 416
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7e420ded3439d41b2f1ebb12a26472
+      internalID: 251681490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_39
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 416
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6a78ade2875d04093b029bdeb9f09c
+      internalID: 1809289872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_40
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 416
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7790d90b41e71144bda6cde4ca9f87d
+      internalID: -591033959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_41
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 416
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0cede21f804ee448f23c76d8e72595
+      internalID: 603403857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_42
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 416
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08442bdbafa61dd4194a951917bef943
+      internalID: 2001222326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_43
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 416
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5633781bfe5f4384b92f821399b657bb
+      internalID: -470849904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_44
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 416
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab6c6b7f65eac642a132b97db0f410d
+      internalID: -566967725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478daa142d2c53845a99668c04c01610
+      internalID: -491869537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_46
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 208
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08e01a06f4003a4ea9ae2643b382684
+      internalID: -1941586523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_47
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 208
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ed96bd7a404984e9e5de827e2b5c4f
+      internalID: 2092268267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_48
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 208
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b3e65b0f3c41048906de216ea430cb
+      internalID: -1087865288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_49
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 208
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880e1316979c1fd41bfedd42f94fe8f4
+      internalID: 908403683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_50
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 208
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11696a96106b863409d6d5582a25143a
+      internalID: -1595039570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_51
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 208
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b42cf82cb928d4da0d52ec320311c0
+      internalID: -946153256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_52
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 208
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edf1aa059428164795ead58c7e49a80
+      internalID: 1297316331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_53
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 208
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b1c9538fbe8b94ca7fe94ebe562204
+      internalID: 2020062620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6773fbf739936784d8845624aa59fd61
+      internalID: 105124894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_55
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea05b7b085e4ff4296c5b9d9d4a64d0
+      internalID: -1001359803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_56
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a98c5632800b13488cbbe6acc777a62
+      internalID: 465862661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_57
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 0
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a420e6ff0b0649c448a2d16d73a2ed27
+      internalID: -1744016191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_58
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 0
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f13271a0d862a243a67623233497d48
+      internalID: -320842174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty_Anim_244x208_59
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 0
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ace4ecf190bcb642841c3e66b785cfa
+      internalID: 103152639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Heart_Empty_Anim_244x208_0: -679547211
+      Heart_Empty_Anim_244x208_1: -1697727234
+      Heart_Empty_Anim_244x208_10: 974518445
+      Heart_Empty_Anim_244x208_11: -1446815953
+      Heart_Empty_Anim_244x208_12: -1212980168
+      Heart_Empty_Anim_244x208_13: -473599282
+      Heart_Empty_Anim_244x208_14: 291027932
+      Heart_Empty_Anim_244x208_15: -128702970
+      Heart_Empty_Anim_244x208_16: -873104893
+      Heart_Empty_Anim_244x208_17: 125231070
+      Heart_Empty_Anim_244x208_18: -1324972197
+      Heart_Empty_Anim_244x208_19: -69168389
+      Heart_Empty_Anim_244x208_2: -600151042
+      Heart_Empty_Anim_244x208_20: 4963900
+      Heart_Empty_Anim_244x208_21: -1721933434
+      Heart_Empty_Anim_244x208_22: 538423909
+      Heart_Empty_Anim_244x208_23: 244905243
+      Heart_Empty_Anim_244x208_24: -972820379
+      Heart_Empty_Anim_244x208_25: 538934894
+      Heart_Empty_Anim_244x208_26: -298587105
+      Heart_Empty_Anim_244x208_27: 852491473
+      Heart_Empty_Anim_244x208_28: -848443840
+      Heart_Empty_Anim_244x208_29: -1723072568
+      Heart_Empty_Anim_244x208_3: -2093562867
+      Heart_Empty_Anim_244x208_30: -1688557553
+      Heart_Empty_Anim_244x208_31: 1392618634
+      Heart_Empty_Anim_244x208_32: 1383295007
+      Heart_Empty_Anim_244x208_33: -495025533
+      Heart_Empty_Anim_244x208_34: 1154278442
+      Heart_Empty_Anim_244x208_35: 1327805112
+      Heart_Empty_Anim_244x208_36: 1049628844
+      Heart_Empty_Anim_244x208_37: -1025687394
+      Heart_Empty_Anim_244x208_38: 251681490
+      Heart_Empty_Anim_244x208_39: 1809289872
+      Heart_Empty_Anim_244x208_4: 1501791250
+      Heart_Empty_Anim_244x208_40: -591033959
+      Heart_Empty_Anim_244x208_41: 603403857
+      Heart_Empty_Anim_244x208_42: 2001222326
+      Heart_Empty_Anim_244x208_43: -470849904
+      Heart_Empty_Anim_244x208_44: -566967725
+      Heart_Empty_Anim_244x208_45: -491869537
+      Heart_Empty_Anim_244x208_46: -1941586523
+      Heart_Empty_Anim_244x208_47: 2092268267
+      Heart_Empty_Anim_244x208_48: -1087865288
+      Heart_Empty_Anim_244x208_49: 908403683
+      Heart_Empty_Anim_244x208_5: -980060257
+      Heart_Empty_Anim_244x208_50: -1595039570
+      Heart_Empty_Anim_244x208_51: -946153256
+      Heart_Empty_Anim_244x208_52: 1297316331
+      Heart_Empty_Anim_244x208_53: 2020062620
+      Heart_Empty_Anim_244x208_54: 105124894
+      Heart_Empty_Anim_244x208_55: -1001359803
+      Heart_Empty_Anim_244x208_56: 465862661
+      Heart_Empty_Anim_244x208_57: -1744016191
+      Heart_Empty_Anim_244x208_58: -320842174
+      Heart_Empty_Anim_244x208_59: 103152639
+      Heart_Empty_Anim_244x208_6: 1852119320
+      Heart_Empty_Anim_244x208_7: -2089687175
+      Heart_Empty_Anim_244x208_8: 970926255
+      Heart_Empty_Anim_244x208_9: 215129952
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
