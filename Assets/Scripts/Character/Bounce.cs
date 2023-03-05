@@ -20,6 +20,7 @@ public class Bounce : BaseGameObject
 
     private LichtPhysics _physics;
 
+    public event Action OnBounce;
     protected override void OnAwake()
     {
         base.OnAwake();
@@ -44,6 +45,7 @@ public class Bounce : BaseGameObject
             if (trigger.TriggeredHit && !BounceDetector.PhysicsObject.GetPhysicsTrigger(JumpController.GroundedTrigger))
             {
                 target.Bounce(BounceDetector.PhysicsObject);
+                OnBounce?.Invoke();
                 yield return JumpController.ExecuteJump(customParams: BounceParams).AsCoroutine()
                     .Combine(TimeYields.WaitOneFrameX);
             }

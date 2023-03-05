@@ -18,8 +18,8 @@ TagManager:
   - EnemyHitBox
   - EnemyHurtBox
   - Surface
-  - 
-  - 
+  - PlayerProjectile
+  - PlayerGravityProjectile
   - 
   - 
   - 

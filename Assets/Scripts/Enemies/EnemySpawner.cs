@@ -13,6 +13,8 @@ public class EnemySpawner : BaseGameObject
 {
     private EnemyPoolManager _enemyPoolManager;
     public EnemyDef[] EnemySpawns;
+    private EnemyDef[] _currentSpawns;
+    private Level _level;
 
     [Serializable]
     public struct EnemyDef
@@ -28,20 +30,39 @@ public class EnemySpawner : BaseGameObject
     {
         base.OnAwake();
         _enemyPoolManager = _enemyPoolManager.FromScene();
+        _currentSpawns = EnemySpawns.Where(sp => sp.MinLevel <= 1).ToArray();
+        _level = _level.FromScene();
     }
 
     protected override void OnEnable()
     {
         base.OnEnable();
         DefaultMachinery.AddBasicMachine(TestSpawn());
+        _level.LevelStat.OnChange += LevelStat_OnChange;
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        _level.LevelStat.OnChange -= LevelStat_OnChange;
+    }
+
+    private void LevelStat_OnChange(Licht.Unity.Objects.Stats.ScriptStat<int>.StatUpdate obj)
+    {
+        _currentSpawns= EnemySpawns.Where(sp => sp.MinLevel <= 1).ToArray();
+    }
+
+    private float MaxWaitTime()
+    {
+        return Mathf.Clamp(3 - (_level.LevelStat.Value-1) * 0.2f, 0.1f, float.MaxValue);
     }
 
     private IEnumerable<IEnumerable<Action>> TestSpawn()
     {
         while (ComponentEnabled)
         {
-            yield return TimeYields.WaitSeconds(GameTimer, Random.Range(0f, 3f));
-            var spawn = EnemySpawns[Random.Range(0, EnemySpawns.Length)];
+            yield return TimeYields.WaitSeconds(GameTimer, Random.Range(0f, MaxWaitTime()));
+            var spawn = _currentSpawns[Random.Range(0, _currentSpawns.Length)];
             var pool = _enemyPoolManager.GetEffect(spawn.Enemy);
             if (pool.TryGetFromPool(out var enemy))
             {

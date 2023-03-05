@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: 0273307852a1a564b9155c8d2bc34e00
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53fae975507ad844bef0af1c6510abb
+      internalID: 888839563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 684
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de65eb6e6d61b5449875df16fb3392ff
+      internalID: -1082212179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 684
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4de722da0f15348a474dc7581ff305
+      internalID: -1401653189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_3
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 684
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b34a165b96e5e4c99d91ad409181e3
+      internalID: 48608839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_4
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 684
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116ca0326d95dce41a098d73a85cacfa
+      internalID: 1851145948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_5
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 684
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac3e53e7d254e84eb81661c6d53683d
+      internalID: -2092890364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_6
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 684
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6418ae3903ae7044c9bb3e93eb21d2cd
+      internalID: -993536692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_7
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 684
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f73906acf37c0c47afc4037ce7f1949
+      internalID: 1862374020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_8
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 684
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb422665e5bfabb4d813938127c98589
+      internalID: -1996234298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032c731049865a94e94b814b2c097c33
+      internalID: -1810164672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 570
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac5b9dea4648984d892761cf9be2253
+      internalID: 624509854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_11
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 570
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88875bd0c5fb75e42afdbd9021ab9d9d
+      internalID: 2105319644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_12
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 570
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620675208f15c544aa3c96dfc94d1889
+      internalID: 1598813624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_13
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 570
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64de251472c88343bcab82fba540e57
+      internalID: -253636141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_14
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 570
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592eb6530fad86c40ba32fd1e1fd4193
+      internalID: 545858087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_15
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 570
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03ab66edee55e64bad19a2901a0f285
+      internalID: -376681715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_16
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 570
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0292a602248084bac386386bc1d322
+      internalID: -2049375111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_17
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 570
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7b7720ec45cc746b858b6db331e2c6
+      internalID: 492584376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa397e11fa1d8e49a0331eb30e408e0
+      internalID: 1633441138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_19
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 456
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be638894d03f6dd4f884459c48437c47
+      internalID: -1782460939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_20
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 456
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ef1a1187d59c44191cf3e88a22fbac
+      internalID: -145299909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_21
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 456
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d8e642c307bc44db4f49c8591e3982
+      internalID: 1922984189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_22
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 456
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da52d7fce2873124f98fdd2356697828
+      internalID: -544880207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_23
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 456
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cfb9fae9641ec4d957aed0c3401ae4
+      internalID: -1374530206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_24
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 456
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9cc692d14e53a42bf841c369a28edc
+      internalID: -125112658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_25
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 456
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230e91747660797498e5ffe03ad005e8
+      internalID: -2044998237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_26
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 456
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a3a232127902e4d99cfb00ca930b26
+      internalID: 1896492336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949c0c8b7053c3d4b960e5a259df6553
+      internalID: 1979255240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_28
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 342
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee5bfd1d7ba8d2408b3aa482b078085
+      internalID: 1871986104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_29
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 342
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117c9226fa4c552408d79888bf0a8475
+      internalID: -327070023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_30
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 342
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a373ead8ecd4b394cac462580905af93
+      internalID: 1265077936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_31
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 342
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ac4f01b2ea4ef4c951af97f72bc87a
+      internalID: 1251136881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_32
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 342
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de310b1b5873254ebe2edafcf474581
+      internalID: 2135966517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_33
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 342
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbb5a3ba7908ce4288776843f3ab7da
+      internalID: -1904092231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_34
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 342
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d7f6570c6e7b14da771558400a6cfc
+      internalID: -74279844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_35
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 342
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1f6fdd61ba93d44a73aef3ef7d059d
+      internalID: -357952855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591271e5ca27a61469ac6203e2578ca9
+      internalID: 237262829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_37
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 228
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544082b8a7258f64ca9242c931d00b1e
+      internalID: 673472100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_38
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 228
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbcdd677caafb147ba0713b0d0ed50f
+      internalID: -609086236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_39
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 228
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad57799378b2e142a847d9704045adb
+      internalID: -1450943547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_40
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 228
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e2cf013e6bef24abe6be428c870454
+      internalID: 33564177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_41
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 228
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715b522fbbeece942a495b2741e80a85
+      internalID: -879019810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_42
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 228
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ee85beb9c0e0941b457c3feaf458bb
+      internalID: -1586136313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_43
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 228
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f324b053df5f31f4d920672dced27f73
+      internalID: -500036605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_44
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 228
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab94f1fad52d62642a84899e07fcb4f1
+      internalID: -483976003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e0109b902001641908f6a6ffbcbc77
+      internalID: -304407458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_46
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 114
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89d75a0560f7ba45a53940f592d637f
+      internalID: -90915053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_47
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 114
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e832802b8220345b908d9c3dc453fb
+      internalID: -1712806910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_48
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 114
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774500bea30a8224cbc8df2f23584c18
+      internalID: 40775807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_49
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 114
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f606639abb36e8b459735a6d3e2588b5
+      internalID: -1843627990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_50
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 114
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73bc6a8e409b1341bf80622f42b95ff
+      internalID: 1510593949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_51
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 114
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd60504510b0f504fa012561f4d79017
+      internalID: 1123883406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_52
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 114
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4f87b927aa35b499dfda8dce58bc00
+      internalID: -263597286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_53
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 114
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e96afe39e6b8449bcf343a79177801
+      internalID: 1484812875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1708f8c3d0cc7a4ca3f7639acdcbc52
+      internalID: 115503868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00b4d2430b4792478d6bdfba775f972
+      internalID: 126417534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_56
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96c99232e5f0ff44a993f5936d35459
+      internalID: 1703316391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_57
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 0
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d012d9df9ba6641b72bdf124c9bb44
+      internalID: 930371776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_58
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84824bf62018ff64a9914a653687074b
+      internalID: 735656635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelicCard_CursorAnim_114x114_59
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c7fc0d8f727ca489d88037fc88005f
+      internalID: -591617748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RelicCard_CursorAnim_114x114_0: 888839563
+      RelicCard_CursorAnim_114x114_1: -1082212179
+      RelicCard_CursorAnim_114x114_10: 624509854
+      RelicCard_CursorAnim_114x114_11: 2105319644
+      RelicCard_CursorAnim_114x114_12: 1598813624
+      RelicCard_CursorAnim_114x114_13: -253636141
+      RelicCard_CursorAnim_114x114_14: 545858087
+      RelicCard_CursorAnim_114x114_15: -376681715
+      RelicCard_CursorAnim_114x114_16: -2049375111
+      RelicCard_CursorAnim_114x114_17: 492584376
+      RelicCard_CursorAnim_114x114_18: 1633441138
+      RelicCard_CursorAnim_114x114_19: -1782460939
+      RelicCard_CursorAnim_114x114_2: -1401653189
+      RelicCard_CursorAnim_114x114_20: -145299909
+      RelicCard_CursorAnim_114x114_21: 1922984189
+      RelicCard_CursorAnim_114x114_22: -544880207
+      RelicCard_CursorAnim_114x114_23: -1374530206
+      RelicCard_CursorAnim_114x114_24: -125112658
+      RelicCard_CursorAnim_114x114_25: -2044998237
+      RelicCard_CursorAnim_114x114_26: 1896492336
+      RelicCard_CursorAnim_114x114_27: 1979255240
+      RelicCard_CursorAnim_114x114_28: 1871986104
+      RelicCard_CursorAnim_114x114_29: -327070023
+      RelicCard_CursorAnim_114x114_3: 48608839
+      RelicCard_CursorAnim_114x114_30: 1265077936
+      RelicCard_CursorAnim_114x114_31: 1251136881
+      RelicCard_CursorAnim_114x114_32: 2135966517
+      RelicCard_CursorAnim_114x114_33: -1904092231
+      RelicCard_CursorAnim_114x114_34: -74279844
+      RelicCard_CursorAnim_114x114_35: -357952855
+      RelicCard_CursorAnim_114x114_36: 237262829
+      RelicCard_CursorAnim_114x114_37: 673472100
+      RelicCard_CursorAnim_114x114_38: -609086236
+      RelicCard_CursorAnim_114x114_39: -1450943547
+      RelicCard_CursorAnim_114x114_4: 1851145948
+      RelicCard_CursorAnim_114x114_40: 33564177
+      RelicCard_CursorAnim_114x114_41: -879019810
+      RelicCard_CursorAnim_114x114_42: -1586136313
+      RelicCard_CursorAnim_114x114_43: -500036605
+      RelicCard_CursorAnim_114x114_44: -483976003
+      RelicCard_CursorAnim_114x114_45: -304407458
+      RelicCard_CursorAnim_114x114_46: -90915053
+      RelicCard_CursorAnim_114x114_47: -1712806910
+      RelicCard_CursorAnim_114x114_48: 40775807
+      RelicCard_CursorAnim_114x114_49: -1843627990
+      RelicCard_CursorAnim_114x114_5: -2092890364
+      RelicCard_CursorAnim_114x114_50: 1510593949
+      RelicCard_CursorAnim_114x114_51: 1123883406
+      RelicCard_CursorAnim_114x114_52: -263597286
+      RelicCard_CursorAnim_114x114_53: 1484812875
+      RelicCard_CursorAnim_114x114_54: 115503868
+      RelicCard_CursorAnim_114x114_55: 126417534
+      RelicCard_CursorAnim_114x114_56: 1703316391
+      RelicCard_CursorAnim_114x114_57: 930371776
+      RelicCard_CursorAnim_114x114_58: 735656635
+      RelicCard_CursorAnim_114x114_59: -591617748
+      RelicCard_CursorAnim_114x114_6: -993536692
+      RelicCard_CursorAnim_114x114_7: 1862374020
+      RelicCard_CursorAnim_114x114_8: -1996234298
+      RelicCard_CursorAnim_114x114_9: -1810164672
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
