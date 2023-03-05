@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Licht.Unity.Extensions;
+﻿using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
 using UnityEngine;
 
 public class AuraDecreaseOnDamage : BaseGameObject
 {
-    [field:SerializeField]
+    [field: SerializeField]
     public Damageable Damageable { get; private set; }
 
     private Aura _aura;
@@ -34,7 +29,7 @@ public class AuraDecreaseOnDamage : BaseGameObject
 
     private void Damageable_OnDamage(int obj)
     {
-        if (_aura.Radius>10) _aura.Decrease(_aura.Radius*0.5f);
-        else _aura.Decrease(2);
+        if (_aura.Radius > 10) _aura.Decrease(_aura.Radius * 0.5f);
+        else _aura.Decrease(1);
     }
 }
