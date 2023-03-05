@@ -41,7 +41,7 @@ public class Bounce : BaseGameObject
                                                                           out var targetObject) &&
                                                                       targetObject.TryGetCustomObject(out target));
 
-            if (trigger.TriggeredHit)
+            if (trigger.TriggeredHit && !BounceDetector.PhysicsObject.GetPhysicsTrigger(JumpController.GroundedTrigger))
             {
                 target.Bounce(BounceDetector.PhysicsObject);
                 yield return JumpController.ExecuteJump(customParams: BounceParams).AsCoroutine()
