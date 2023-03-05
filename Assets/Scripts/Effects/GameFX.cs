@@ -48,4 +48,10 @@ public class GameFX : BaseGameObject
         Shader.SetGlobalVector("_FX_Center", (Vector2) FollowTarget.position);
         Shader.SetGlobalFloat("_FX_Radius", AuraRadius);
     }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        Shader.SetGlobalInteger("_FX_Enabled", 0);
+    }
 }
