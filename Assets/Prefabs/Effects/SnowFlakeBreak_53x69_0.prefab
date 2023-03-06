@@ -120,4 +120,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActiveOnInitialization: 0
   Animator: {fileID: 1789877286233457520}
-  State: SnowFlakeBreak
+  State: SnowflakeBreak
