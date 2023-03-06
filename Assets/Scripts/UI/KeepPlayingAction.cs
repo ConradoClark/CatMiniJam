@@ -1,17 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Licht.Impl.Orchestration;
-using Licht.Unity.Extensions;
 using Licht.Unity.Mixins;
 using Licht.Unity.UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 
-public class RetryAction : UIAction
+public class KeepPlayingAction : UIAction
 {
     [field:SerializeField]
     public SpriteRenderer PerkIcon { get; private set; }
@@ -21,7 +16,12 @@ public class RetryAction : UIAction
     [field: SerializeField]
     public InputActionReference MouseClick { get; private set; }
     [field: SerializeField]
-    public string Scene { get; private set; }
+    public GameObject GameWinPanel { get; private set; }
+
+    [field: SerializeField]
+    public AudioSource GameMusic { get; private set; }
+    [field: SerializeField]
+    public AudioClip NewSong { get; private set; }
 
     private ClickableObjectMixin _clickable;
 
@@ -33,11 +33,14 @@ public class RetryAction : UIAction
 
     public override IEnumerable<IEnumerable<Action>> DoAction()
     {
-        DefaultMachinery.FinalizeWith(() =>
-        {
-            GameTimer.Multiplier = 1;
-            SceneManager.LoadScene(Scene, LoadSceneMode.Single);
-        });
+        GameTimer.Multiplier = 1;
+        GameWinPanel.SetActive(false);
+
+        GameMusic.Stop();
+        GameMusic.clip = NewSong;
+        GameMusic.time = 0f;
+        GameMusic.Play();
+
         yield break;
     }
 

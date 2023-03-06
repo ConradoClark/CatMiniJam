@@ -28,6 +28,6 @@ public class LevelUpdater : BaseGameObject
 
     private void Stat_OnChange(Licht.Unity.Objects.Stats.ScriptStat<int>.StatUpdate obj)
     {
-        TextComponent.text = $"Level {obj.NewValue}";
+        TextComponent.text = obj.NewValue < 15 ? $"Level {obj.NewValue}" : obj.NewValue == 15 ? "FINAL" : "ENDLESS";
     }
 }
