@@ -49,7 +49,7 @@ public class EnemySpawner : BaseGameObject
 
     private void LevelStat_OnChange(Licht.Unity.Objects.Stats.ScriptStat<int>.StatUpdate obj)
     {
-        _currentSpawns= EnemySpawns.Where(sp => sp.MinLevel <= 1).ToArray();
+        _currentSpawns = EnemySpawns.Where(sp => sp.MinLevel <= _level.LevelStat.Value).ToArray();
     }
 
     private float MaxWaitTime()
@@ -61,24 +61,36 @@ public class EnemySpawner : BaseGameObject
     {
         while (ComponentEnabled)
         {
-            yield return TimeYields.WaitSeconds(GameTimer, Random.Range(0f, MaxWaitTime()));
+            yield return TimeYields.WaitSeconds(GameTimer, Random.Range(0.1f, MaxWaitTime()));
             var spawn = _currentSpawns[Random.Range(0, _currentSpawns.Length)];
             var pool = _enemyPoolManager.GetEffect(spawn.Enemy);
-            if (pool.TryGetFromPool(out var enemy))
-            {
-                if (Random.Range(0, 2) == 0)
-                {
-                    enemy.Direction = Vector2.right;
-                    enemy.transform.position = spawn.LeftSpawn;
-                }
-                else
-                {
-                    enemy.Direction = Vector2.left;
-                    enemy.transform.position = spawn.RightSpawn;
-                }
 
-                enemy.Speed = Random.Range(enemy.MinSpeed, enemy.MaxSpeed);
+            var growth = spawn.Growth * _level.LevelStat.Value;
+            var amount = Math.Max(1, Mathf.RoundToInt(Random.Range(0, growth)));
+
+            DefaultMachinery.AddBasicMachine(Spawn(amount, spawn, pool));
+        }
+    }
+
+    private IEnumerable<IEnumerable<Action>> Spawn(int amount, EnemyDef spawn, EnemyPool pool)
+    {
+        for (var i = 0; i < amount; i++)
+        {
+            if (!pool.TryGetFromPool(out var enemy)) continue;
+            if (Random.Range(0, 2) == 0)
+            {
+                enemy.Direction = Vector2.right;
+                enemy.transform.position = spawn.LeftSpawn;
             }
+            else
+            {
+                enemy.Direction = Vector2.left;
+                enemy.transform.position = spawn.RightSpawn;
+            }
+
+            enemy.Speed = Random.Range(enemy.MinSpeed, enemy.MaxSpeed);
+
+            yield return TimeYields.WaitMilliseconds(GameTimer, Random.Range(100, 1000));
         }
     }
 }

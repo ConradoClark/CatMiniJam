@@ -26,12 +26,18 @@ public class SpawnSnowCrystalsOnJump : BaseGameObject
     [field: SerializeField]
     public int InitialAmount { get; private set; }
 
+    [field: SerializeField]
+    public AudioClip SpawnSound { get; private set; }
+
+
     private Aura _aura;
+    private SFXAudioSource _audioSource;
 
     protected override void OnAwake()
     {
         base.OnAwake();
         _aura = _aura.FromScene();
+        _audioSource = _audioSource.FromScene();
     }
 
     protected override void OnEnable()
@@ -50,6 +56,7 @@ public class SpawnSnowCrystalsOnJump : BaseGameObject
     {
         if (obj.CustomParams is { Identifier: "Bounce" }) return;
 
+        _audioSource.AudioSource.PlayOneShot(SpawnSound);
         var amount = InitialAmount + Mathf.RoundToInt(_aura.Radius * AuraMultiplier);
 
         Vector2 objectDirection = Quaternion.Euler(0, 0, Random.Range(-90f, 90)) * Vector2.up;

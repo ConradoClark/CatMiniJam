@@ -35,7 +35,7 @@ public class ScoreUpdater : BaseGameObject
 
     private void ScoreStat_OnChange(Licht.Unity.Objects.Stats.ScriptStat<int>.StatUpdate obj)
     {
-        DefaultMachinery.AddUniqueMachine("UpdateScore", UniqueMachine.UniqueMachineBehaviour.Replace,
+        DefaultMachinery.AddUniqueMachine($"UpdateScore_{this.GetInstanceID()}", UniqueMachine.UniqueMachineBehaviour.Replace,
             UpdateScore(obj.NewValue));
     }
 

@@ -43,7 +43,7 @@ public class KillCounter : BaseGameObject
 
         if (Counter.Value == 0)
         {
-            DefaultMachinery.AddUniqueMachine("levelUp", UniqueMachine.UniqueMachineBehaviour.Cancel, LevelUp());
+            DefaultMachinery.AddUniqueMachine($"levelUp_{this.GetInstanceID()}", UniqueMachine.UniqueMachineBehaviour.Cancel, LevelUp());
         }
     }
 

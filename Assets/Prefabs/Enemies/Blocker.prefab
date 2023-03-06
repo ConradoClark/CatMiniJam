@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ea675e72653b904ba305cf30801f6a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Score>k__BackingField: 100
+  <Score>k__BackingField: 150
   <Killable>k__BackingField: {fileID: 7265065015850150174}
 --- !u!114 &8956925838648251377
 MonoBehaviour:

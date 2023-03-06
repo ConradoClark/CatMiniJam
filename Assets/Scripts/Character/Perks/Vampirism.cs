@@ -23,12 +23,17 @@ public class Vampirism : BaseGameObject
     [field: SerializeField]
     public Vampirism PrevVamp { get; private set; }
 
+    [field: SerializeField]
+    public AudioClip AudioClip { get; private set; }
+
     private Health _health;
+    private SFXAudioSource _audioSource;
 
     protected override void OnAwake()
     {
         base.OnAwake();
         _health = _health.FromScene();
+        _audioSource = _audioSource.FromScene();
     }
 
     protected override void OnEnable()
@@ -47,6 +52,7 @@ public class Vampirism : BaseGameObject
     {
         if (Random.Range(0f, 1f) > ChanceInPercentage * 0.01f) return;
 
+        _audioSource.AudioSource.PlayOneShot(AudioClip);
         _health.HP.Value += 1;
         TintFlash.Flash();
         Effect.TrySpawnEffect(transform.position, out _);

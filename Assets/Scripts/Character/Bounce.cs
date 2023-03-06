@@ -16,7 +16,7 @@ public class Bounce : BaseGameObject
     [field: SerializeField]
     public LichtPlatformerJumpController JumpController { get; private set; }
     [field: SerializeField]
-    public LichtPlatformerJumpController.CustomJumpParams BounceParams { get; private set; }
+    public LichtPlatformerJumpController.CustomJumpParams BounceParams { get; set; }
 
     private LichtPhysics _physics;
 

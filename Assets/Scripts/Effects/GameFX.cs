@@ -23,7 +23,7 @@ public class GameFX : BaseGameObject
 
     public void SetRadius(float auraRadius)
     {
-        DefaultMachinery.AddUniqueMachine("UpdateAuraRadius", UniqueMachine.UniqueMachineBehaviour.Replace,
+        DefaultMachinery.AddUniqueMachine($"UpdateAuraRadius_{this.GetInstanceID()}", UniqueMachine.UniqueMachineBehaviour.Replace,
             UpdateRadius(auraRadius));
     }
 
@@ -42,15 +42,15 @@ public class GameFX : BaseGameObject
     {
         base.OnAwake();
         _aura = _aura.FromScene();
-        AuraRadius = _aura.InitialRadius;
-        Shader.SetGlobalColor("_FX_DarkColor", DarkColor);
-        Shader.SetGlobalFloat("_FX_Radius", AuraRadius);
-        Shader.SetGlobalInteger("_FX_Enabled", 1);
     }
 
     protected override void OnEnable()
     {
         base.OnEnable();
+        AuraRadius = _aura.InitialRadius;
+        Shader.SetGlobalColor("_FX_DarkColor", DarkColor);
+        Shader.SetGlobalFloat("_FX_Radius", AuraRadius);
+        Shader.SetGlobalInteger("_FX_Enabled", 1);
         _aura.OnAuraChanged += _aura_OnAuraChanged;
     }
 

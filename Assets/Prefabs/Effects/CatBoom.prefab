@@ -117,6 +117,7 @@ GameObject:
   - component: {fileID: 301598703238538269}
   - component: {fileID: 9187038170113917687}
   - component: {fileID: 9219209199967370509}
+  - component: {fileID: 6070191235206306210}
   m_Layer: 6
   m_Name: CatBoom
   m_TagString: Untagged
@@ -269,6 +270,20 @@ MonoBehaviour:
   - {fileID: 1742834080934091734}
   AdditionalColliders: []
   CalculatedSpeed: {x: 0, y: 0}
+--- !u!114 &6070191235206306210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828553333050806461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ed084cbfaa0974fa30e0c9b6827dba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <EffectPoolable>k__BackingField: {fileID: 301598703238538269}
+  <AudioClip>k__BackingField: {fileID: 8300000, guid: 2402e4e699a158b49834070848a923e6, type: 3}
 --- !u!1 &3445496883214706641
 GameObject:
   m_ObjectHideFlags: 0

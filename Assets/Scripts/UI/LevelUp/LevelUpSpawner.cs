@@ -20,6 +20,9 @@ public class LevelUpSpawner : BaseGameObject
 
     private Perk[] _perks;
 
+    [field: SerializeField]
+    public AudioSource FanfareAudio { get; private set; }
+
     protected override void OnAwake()
     {
         base.OnAwake();
@@ -30,9 +33,10 @@ public class LevelUpSpawner : BaseGameObject
     {
         if (!SelectPerk()) yield break; // handle this later
 
-        yield return TimeYields.WaitMilliseconds(GameTimer, 200);
-
+        if (FanfareAudio!=null) FanfareAudio.Play();
         GameTimer.Multiplier = 0.0001f;
+        yield return TimeYields.WaitMilliseconds(UITimer, 1000);
+
         LevelUp.SetActive(true);
 
         yield return TimeYields.WaitOneFrameX;

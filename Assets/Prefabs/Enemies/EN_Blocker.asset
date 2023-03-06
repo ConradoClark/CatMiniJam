@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: EN_Blocker
   m_EditorClassIdentifier: 
   Prefab: {fileID: 3699941319659710216, guid: 4bef7581593ca1b4aaf5ee679f12efdd, type: 3}
-  DefaultPoolSize: 30
+  DefaultPoolSize: 50
   Type: 0
