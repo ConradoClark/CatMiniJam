@@ -172,10 +172,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Speed Up I
   <Description>k__BackingField: Increases movement speed.
-  <FlavorText>k__BackingField: blablabla
+  <FlavorText>k__BackingField: 'You must be fast, said the cat, '
   <IconSprite>k__BackingField: {fileID: 21300000, guid: b13703ab19ae73347bec7797ccf7b4f3, type: 3}
   <ActivatedObject>k__BackingField: {fileID: 687108281723920495}
   <Requires>k__BackingField: []
+  <Blocks>k__BackingField: []
 --- !u!114 &1346902407470233440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5349,6 +5350,92 @@ MonoBehaviour:
   <ShadowRayCast>k__BackingField: {fileID: 8424578278206337349}
   <YOffset>k__BackingField: 0.6
   <ScaleFactor>k__BackingField: 0.15
+--- !u!1 &2929044856898681723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4992796276492050791}
+  - component: {fileID: 2953043663646137687}
+  - component: {fileID: 8923299127358407619}
+  - component: {fileID: 2649787125901491376}
+  m_Layer: 6
+  m_Name: Vampirism
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4992796276492050791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2929044856898681723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3100850979709816383}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2953043663646137687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2929044856898681723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001550b3e2044e947a701ee6f4233254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Catoola's Curse I
+  <Description>k__BackingField: 2% Chance to release healing fumes that recover Half
+    a Heart on Kill
+  <FlavorText>k__BackingField: 'Count Catoola wouldn''t leave without a fitting parting
+    gift: Their sharp teeth, thirsty for blood... and milk.'
+  <IconSprite>k__BackingField: {fileID: 21300000, guid: 36020cf76b718f34092d9a58f51be45e, type: 3}
+  <ActivatedObject>k__BackingField: {fileID: 2929044856898681723}
+  <Requires>k__BackingField: []
+  <Blocks>k__BackingField: []
+--- !u!114 &8923299127358407619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2929044856898681723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dbced321bb26c041aeb654c4abf4afd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <ChanceInPercentage>k__BackingField: 50
+  <TintFlash>k__BackingField: {fileID: 2649787125901491376}
+  <Effect>k__BackingField: {fileID: 11400000, guid: 14c8cd79b9ef317449cdad349434cd18, type: 2}
+  <PrevVamp>k__BackingField: {fileID: 0}
+--- !u!114 &2649787125901491376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2929044856898681723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea23ca23281ad484db36997da97c28dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <SpriteRenderer>k__BackingField: {fileID: 4840609521693350602}
+  <DurationInMs>k__BackingField: 400
+  <Color>k__BackingField: {r: 1, g: 1, b: 1, a: 0.8392157}
 --- !u!1 &3159519344262699115
 GameObject:
   m_ObjectHideFlags: 0
@@ -5403,6 +5490,93 @@ MonoBehaviour:
   MovementEndEasing: 1
   Target: {fileID: 210563311146181894}
   AxisInput: {fileID: -2458382491259598618, guid: 072ef745d363f1843bdfc4fffac4052b, type: 3}
+--- !u!1 &5019706101506181431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1916171100207109096}
+  - component: {fileID: 1528564294748558336}
+  - component: {fileID: 4233138216250412523}
+  - component: {fileID: 3549484466726595117}
+  m_Layer: 6
+  m_Name: ClusterFlakes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1916171100207109096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019706101506181431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3100850979709816383}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1528564294748558336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019706101506181431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001550b3e2044e947a701ee6f4233254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Cluster Flakes
+  <Description>k__BackingField: Frosty flakes explode into tiny icy shrapnel after
+    flying upwards
+  <FlavorText>k__BackingField: On a hazy saturday, the orangest tabby cat accidentally
+    ate something crunchy on the ground, which then became several crunchy things.
+    Delightful.
+  <IconSprite>k__BackingField: {fileID: 21300000, guid: 613927226ce3da348a42de93d4221e14, type: 3}
+  <ActivatedObject>k__BackingField: {fileID: 5019706101506181431}
+  <Requires>k__BackingField:
+  - {fileID: 4045137861511196173}
+  <Blocks>k__BackingField: []
+--- !u!114 &4233138216250412523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019706101506181431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11b9f23cc0929249827b9ba44d25b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Offset>k__BackingField: {x: 0, y: 0.5, z: 0}
+  <JumpController>k__BackingField: {fileID: 8113872927158845454}
+  <CrystalPrefab>k__BackingField: {fileID: 11400000, guid: dc98f96171478764fa9594b4249abd94, type: 2}
+  <AuraMultiplier>k__BackingField: 0.1
+  <InitialAmount>k__BackingField: 2
+--- !u!114 &3549484466726595117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019706101506181431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17677959fbfb1f643ab8532e66352f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Target>k__BackingField: {fileID: 1259362188511133155}
 --- !u!1 &5401221905700833235
 GameObject:
   m_ObjectHideFlags: 0
@@ -5530,6 +5704,7 @@ MonoBehaviour:
   <IconSprite>k__BackingField: {fileID: 21300000, guid: db5f6cdb41f86d0488afa51fd78a42d2, type: 3}
   <ActivatedObject>k__BackingField: {fileID: 5495045558887270705}
   <Requires>k__BackingField: []
+  <Blocks>k__BackingField: []
 --- !u!1 &5780630825778179626
 GameObject:
   m_ObjectHideFlags: 0
@@ -5802,6 +5977,8 @@ Transform:
   - {fileID: 1620869312674168715}
   - {fileID: 7269704897197882601}
   - {fileID: 4720077065740630226}
+  - {fileID: 4992796276492050791}
+  - {fileID: 1916171100207109096}
   m_Father: {fileID: 510784321558120206}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5967,6 +6144,7 @@ MonoBehaviour:
   <IconSprite>k__BackingField: {fileID: 21300000, guid: 69d988fcb37d2e842b17682f70bd5fc3, type: 3}
   <ActivatedObject>k__BackingField: {fileID: 8708117237812969476}
   <Requires>k__BackingField: []
+  <Blocks>k__BackingField: []
 --- !u!114 &3540464846307729981
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -116,9 +116,9 @@ GameObject:
   - component: {fileID: 8550991584813759325}
   - component: {fileID: 8965960804905444101}
   - component: {fileID: 4234045455534909152}
-  - component: {fileID: 4838994229779998694}
+  - component: {fileID: 8956925838648251377}
   m_Layer: 9
-  m_Name: Blocky
+  m_Name: Blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,6 +145,7 @@ Transform:
   - {fileID: 77468898106167323}
   - {fileID: 1925772878947852562}
   - {fileID: 8383948551518461972}
+  - {fileID: 5537617975348300945}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -190,8 +191,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveOnInitialization: 0
-  <MinSpeed>k__BackingField: 2
-  <MaxSpeed>k__BackingField: 4
+  <MinSpeed>k__BackingField: 1
+  <MaxSpeed>k__BackingField: 2
 --- !u!114 &8965960804905444101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,7 +221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Score>k__BackingField: 100
   <Killable>k__BackingField: {fileID: 7265065015850150174}
---- !u!114 &4838994229779998694
+--- !u!114 &8956925838648251377
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -466,7 +467,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1390949363, guid: 08d46ad10f7b390499de3da2b01f8ff9, type: 3}
+  m_Sprite: {fileID: 1458787871, guid: dc803cbf5fac53542a1f82a461758689, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -487,7 +488,7 @@ Animator:
   m_GameObject: {fileID: 4417037080826945368}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1f9f5a71f3566fa4eb225fa24d8085fd, type: 2}
+  m_Controller: {fileID: 9100000, guid: 075d218cdac552c43afd258d275e08e0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -971,6 +972,54 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5225463, y: 0.17246473}
   m_EdgeRadius: 0
+--- !u!1 &8398614239926104527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5537617975348300945}
+  - component: {fileID: 3755525871451265698}
+  m_Layer: 9
+  m_Name: Jumps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5537617975348300945
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8398614239926104527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5704280271468002971}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3755525871451265698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8398614239926104527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e58d6805d6a6f9e4a8e09c5014b621b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <PhysicsObject>k__BackingField: {fileID: 3027382008757829575}
+  <JumpFrequencyInSeconds>k__BackingField: 1
+  <JumpHeightMin>k__BackingField: 2
+  <JumpHeightMax>k__BackingField: 4
 --- !u!1 &8410991670349724106
 GameObject:
   m_ObjectHideFlags: 0

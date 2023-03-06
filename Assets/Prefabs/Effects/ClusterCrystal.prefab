@@ -18,8 +18,9 @@ GameObject:
   - component: {fileID: 6289832784893746568}
   - component: {fileID: 1777897215676556056}
   - component: {fileID: -8945561740849276074}
+  - component: {fileID: 5361894453636053314}
   m_Layer: 14
-  m_Name: SnowCrystal
+  m_Name: ClusterCrystal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,7 +35,7 @@ Transform:
   m_GameObject: {fileID: 1076313601198305539}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.115821, y: 0.7927804, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2967489757744338971}
@@ -145,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActiveOnInitialization: 0
   <PhysicsObject>k__BackingField: {fileID: 5445758333705165072}
-  <Speed>k__BackingField: 5
+  <Speed>k__BackingField: 10
 --- !u!114 &5445758333705165072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,6 +270,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <EffectPoolable>k__BackingField: {fileID: 1560108279513355330}
+--- !u!114 &5361894453636053314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076313601198305539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a0c24c2a8758d4db4399e91e3d7a64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Crystal>k__BackingField: {fileID: 1560108279513355330}
+  <SmallerCrystals>k__BackingField: {fileID: 11400000, guid: b76e2f396a8bbf44293cc5bc5b4c3f1f, type: 2}
+  <BreakEffect>k__BackingField: {fileID: 11400000, guid: 05226f4ae770b324f8f08a9c44375a38, type: 2}
 --- !u!1 &2135485839607522247
 GameObject:
   m_ObjectHideFlags: 0

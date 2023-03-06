@@ -20,6 +20,8 @@ public class SnowCrystal : EffectPoolable
     [field: SerializeField]
     public float Speed { get; private set; }
 
+    public event Action OnMaxHeight;
+
     private Gravity _gravity;
     protected override void OnAwake()
     {
@@ -32,7 +34,7 @@ public class SnowCrystal : EffectPoolable
         DefaultMachinery.AddBasicMachine(HandleCrystal());
     }
 
-    private IEnumerable<IEnumerable<Action>> HandleCrystal()
+    protected virtual IEnumerable<IEnumerable<Action>> HandleCrystal()
     {
         var direction = new Vector2(CustomProps.ContainsKey("DirX") ? CustomProps["DirX"] : 0f,
             CustomProps.ContainsKey("DirY") ? CustomProps["DirY"] : 0f);
@@ -48,6 +50,8 @@ public class SnowCrystal : EffectPoolable
             .Build();
 
         _gravity.UnblockForceFor(this, PhysicsObject);
+
+        OnMaxHeight?.Invoke();
 
         while (!IsEffectOver)
         {

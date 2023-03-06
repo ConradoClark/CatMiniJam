@@ -24,11 +24,21 @@ public class Perk : BaseGameObject
 
     [field: SerializeField]
     public Perk[] Requires { get; private set; }
+
+    [field: SerializeField]
+    public Perk[] Blocks { get; private set; }
     public bool Activated { get; set; }
+    public bool Blocked { get; set; }
 
     public void Activate()
     {
         ActivatedObject.SetActive(true);
         Activated = true;
+        foreach (var perk in Blocks)
+        {
+            perk.Blocked = true;
+        }
     }
+
+
 }

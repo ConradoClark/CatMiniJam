@@ -3,54 +3,41 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Licht.Unity.CharacterControllers;
 using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class SpawnSnowCrystalsOnJump : BaseGameObject
+public class ExplodeIntoCrystals : BaseGameObject
 {
     [field: SerializeField]
-    public Vector3 Offset { get; private set; }
-
-    [field:SerializeField]
-    public LichtPlatformerJumpController JumpController { get; private set; }
+    public SnowCrystal Crystal { get; private set; }
 
     [field: SerializeField]
-    public ScriptPrefab CrystalPrefab { get; private set; }
+    public ScriptPrefab SmallerCrystals { get; private set; }
 
     [field: SerializeField]
-    public float AuraMultiplier { get; private set; }
-
-    [field: SerializeField]
-    public int InitialAmount { get; private set; }
-
-    private Aura _aura;
-
-    protected override void OnAwake()
-    {
-        base.OnAwake();
-        _aura = _aura.FromScene();
-    }
+    public ScriptPrefab BreakEffect { get; private set; }
 
     protected override void OnEnable()
     {
         base.OnEnable();
-        JumpController.OnJumpStart += JumpController_OnJumpStart;
+        Crystal.OnMaxHeight += Crystal_OnMaxHeight;
     }
 
     protected override void OnDisable()
     {
         base.OnDisable();
-        JumpController.OnJumpStart -= JumpController_OnJumpStart;
+        Crystal.OnMaxHeight -= Crystal_OnMaxHeight;
     }
 
-    private void JumpController_OnJumpStart(LichtPlatformerJumpController.LichtPlatformerJumpEventArgs obj)
+    private void Crystal_OnMaxHeight()
     {
-        if (obj.CustomParams is { Identifier: "Bounce" }) return;
+        Crystal.EndEffect();
 
-        var amount = InitialAmount + Mathf.RoundToInt(_aura.Radius * AuraMultiplier);
+        BreakEffect.TrySpawnEffect(transform.position, out _);
+
+        var amount = 2;
 
         Vector2 objectDirection = Quaternion.Euler(0, 0, Random.Range(-90f, 90)) * Vector2.up;
 
@@ -67,7 +54,7 @@ public class SpawnSnowCrystalsOnJump : BaseGameObject
 
         foreach (var direction in directions)
         {
-            if (!CrystalPrefab.TrySpawnEffect(transform.position + Offset, out var crystal)) continue;
+            if (!SmallerCrystals.TrySpawnEffect(transform.position, out var crystal)) continue;
             crystal.CustomProps["DirX"] = direction.x * angleSwitch;
             crystal.CustomProps["DirY"] = direction.y;
         }

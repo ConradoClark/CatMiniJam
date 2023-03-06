@@ -29,6 +29,9 @@ public class LevelUpSpawner : BaseGameObject
     public IEnumerable<IEnumerable<Action>> Spawn()
     {
         if (!SelectPerk()) yield break; // handle this later
+
+        yield return TimeYields.WaitMilliseconds(GameTimer, 200);
+
         GameTimer.Multiplier = 0.0001f;
         LevelUp.SetActive(true);
 
@@ -46,7 +49,7 @@ public class LevelUpSpawner : BaseGameObject
     public bool SelectPerk()
     {
         var spawnablePerks = _perks
-            .Where(p => !p.Activated && p.Requires.All(req => _perks.Any(perk => perk == req && perk.Activated)))
+            .Where(p => !p.Activated && !p.Blocked && p.Requires.All(req => _perks.Any(perk => perk == req && perk.Activated)))
             .ToArray();
 
         if (spawnablePerks.Length == 0) return false;
