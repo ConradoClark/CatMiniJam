@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Extensions;
 using Licht.Unity.Mixins;
+using Licht.Unity.Objects;
 using Licht.Unity.UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -34,7 +35,9 @@ public class PerkMenuAction : UIAction
         _nameUpdater = _nameUpdater.FromScene();
         _descriptionUpdater = _descriptionUpdater.FromScene();
         _flavorTextUpdater = _flavorTextUpdater.FromScene();
-        _clickable = new ClickableObjectMixinBuilder(this, MousePos, MouseClick).Build();
+        _clickable = new ClickableObjectMixinBuilder(this, MousePos, MouseClick)
+            .WithCamera(SceneObject<UICamera>.Instance(true).Camera)
+            .Build();
     }
 
     public override IEnumerable<IEnumerable<Action>> DoAction()

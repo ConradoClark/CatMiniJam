@@ -2484,17 +2484,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemySpawns:
   - MinLevel: 0
-    Growth: 0.35
+    Growth: 0.45
     Enemy: {fileID: 11400000, guid: b73ecfb6d172f2349bc4d4c3d51aa772, type: 2}
     LeftSpawn: {x: -8.28, y: -2, z: 0}
     RightSpawn: {x: 8.28, y: -2, z: 0}
   - MinLevel: 2
-    Growth: 0.15
+    Growth: 0.25
     Enemy: {fileID: 11400000, guid: c62228f2328039947a9eaeef95a92100, type: 2}
     LeftSpawn: {x: -8.28, y: -2, z: 0}
     RightSpawn: {x: 8.28, y: -2, z: 0}
   - MinLevel: 6
-    Growth: 0
+    Growth: 0.05
     Enemy: {fileID: 11400000, guid: f244ba0b291a6224f8912f9014a87121, type: 2}
     LeftSpawn: {x: -8.28, y: -2, z: 0}
     RightSpawn: {x: 8.28, y: -2, z: 0}
@@ -4955,6 +4955,7 @@ GameObject:
   - component: {fileID: 1252891898}
   - component: {fileID: 1252891897}
   - component: {fileID: 1252891895}
+  - component: {fileID: 1252891899}
   m_Layer: 0
   m_Name: UI Camera
   m_TagString: MainCamera
@@ -5071,6 +5072,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1252891899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252891894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6f48ace37c9fe64aa85123d47889549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Camera>k__BackingField: {fileID: 1252891897}
 --- !u!1 &1307693186
 GameObject:
   m_ObjectHideFlags: 0
@@ -8385,6 +8399,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 791203998}
     m_Modifications:
+    - target: {fileID: 40525063076711285, guid: 3c1b485ea074de647a2bae7c11ba56e7, type: 3}
+      propertyPath: <ChanceInPercentage>k__BackingField
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 482348271630156279, guid: 3c1b485ea074de647a2bae7c11ba56e7, type: 3}
+      propertyPath: m_Size.x
+      value: 1.1430097
+      objectReference: {fileID: 0}
+    - target: {fileID: 482348271630156279, guid: 3c1b485ea074de647a2bae7c11ba56e7, type: 3}
+      propertyPath: m_Size.y
+      value: 0.22554475
+      objectReference: {fileID: 0}
+    - target: {fileID: 482348271630156279, guid: 3c1b485ea074de647a2bae7c11ba56e7, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.044986606
+      objectReference: {fileID: 0}
+    - target: {fileID: 482348271630156279, guid: 3c1b485ea074de647a2bae7c11ba56e7, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.4741219
+      objectReference: {fileID: 0}
+    - target: {fileID: 862687487636021582, guid: 3c1b485ea074de647a2bae7c11ba56e7, type: 3}
+      propertyPath: <Description>k__BackingField
+      value: 8% Chance to release healing fumes that recover Half a Heart on Kill
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953043663646137687, guid: 3c1b485ea074de647a2bae7c11ba56e7, type: 3}
+      propertyPath: <Description>k__BackingField
+      value: 5% Chance to release healing fumes that recover Half a Heart on Kill
+      objectReference: {fileID: 0}
     - target: {fileID: 4975800585152450362, guid: 3c1b485ea074de647a2bae7c11ba56e7, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -8436,6 +8478,10 @@ PrefabInstance:
     - target: {fileID: 8838401697558496086, guid: 3c1b485ea074de647a2bae7c11ba56e7, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8923299127358407619, guid: 3c1b485ea074de647a2bae7c11ba56e7, type: 3}
+      propertyPath: <ChanceInPercentage>k__BackingField
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

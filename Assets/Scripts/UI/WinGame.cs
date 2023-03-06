@@ -42,7 +42,7 @@ public class WinGame : BaseGameObject
 
     private IEnumerable<IEnumerable<Action>> Win()
     {
-        yield return TimeYields.WaitMilliseconds(GameTimer, 200);
+        yield return TimeYields.WaitMilliseconds(GameTimer, 1000);
 
         GameTimer.Multiplier = 0.0001f;
         WinPanel.SetActive(true);

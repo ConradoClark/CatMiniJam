@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Mixins;
+using Licht.Unity.Objects;
 using Licht.Unity.UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -28,7 +29,9 @@ public class KeepPlayingAction : UIAction
     protected override void OnAwake()
     {
         base.OnAwake();
-        _clickable = new ClickableObjectMixinBuilder(this, MousePos, MouseClick).Build();
+        _clickable = new ClickableObjectMixinBuilder(this, MousePos, MouseClick)
+            .WithCamera(SceneObject<UICamera>.Instance(true).Camera)
+            .Build();
     }
 
     public override IEnumerable<IEnumerable<Action>> DoAction()
